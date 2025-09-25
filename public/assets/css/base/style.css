@@ -50,12 +50,9 @@ body {
 }
 
 .mainIntroduction p:nth-last-child(2) {
-  max-width: 55ch;
+  max-width: 100ch;
   font-weight: 500;
-}
-
-.mainImgDiv {
-  max-width: 30%;
+  text-align: justify;
 }
 
 .buttons a {
@@ -76,6 +73,30 @@ body {
 .cartoes-projeto .card-body .btn {
   font-weight: 500;
   padding: 7px 20px;
+}
+
+.project .badge {
+  color: var(--color-text-secondary);
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.project .badge:hover {
+  border: 1px solid #0d6efd;
+  box-shadow: 0px 0px 5px #0d6efd;
+}
+
+.project .card-info {
+  padding: 5px 0px;
+  border-top: 2px solid var(--design);
+  border-bottom: 2px solid var(--design);
+  padding: 15px 0px;
+  margin: 15px 0px;
+}
+
+.data-project {
+  font-size: 0.9rem;
+  padding-left: 1px;
 }
 
 .skills p {
@@ -177,6 +198,14 @@ body {
   color: var(--color-text-default);
 }
 
+.card:hover {
+  box-shadow: 0px 0px 10px #1f1f1f8a !important;
+}
+
+.exp-detail:hover {
+  box-shadow: 0px 0px 10px #1f1f1f8a !important;
+}
+
 /* RESPONSIVIDADE */
 
 /* Break 1400 */
@@ -201,6 +230,10 @@ body {
 @media (max-width: 1200px) {
   .icon {
     right: 0px;
+  }
+
+  .mainIntroduction h1 {
+    font-size: 2rem;
   }
 }
 
@@ -237,6 +270,7 @@ body {
 @media (max-width: 768px) {
   .main-textos {
     text-align: center;
+    
   }
 
   .mainIntroduction .col-7 {
@@ -244,7 +278,7 @@ body {
   }
 
   .main-textos p {
-    padding: 0px !important;
+    padding: 5px !important;
   }
 
   .mainIntroduction .buttons {
@@ -266,6 +300,7 @@ body {
     flex-wrap: nowrap;
     overflow-x: scroll;
     justify-content: start !important;
+    padding: 10px 10px 10px 10px;
   }
 
   .scrollzin::-webkit-scrollbar {
@@ -276,7 +311,6 @@ body {
     background: var(--color-text-default);
     border-top: 4px solid var(--color-text-secondary);
     border-bottom: 4px solid var(--color-text-secondary);
-    border-radius: 10px;
   }
 
   .navMain {
