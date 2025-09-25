@@ -75,6 +75,30 @@ body {
   padding: 7px 20px;
 }
 
+.project .badge {
+  color: var(--color-text-secondary);
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.project .badge:hover {
+  border: 1px solid #0d6efd;
+  box-shadow: 0px 0px 5px #0d6efd;
+}
+
+.project .card-info {
+  padding: 5px 0px;
+  border-top: 2px solid var(--design);
+  border-bottom: 2px solid var(--design);
+  padding: 15px 0px;
+  margin: 15px 0px;
+}
+
+.data-project {
+  font-size: 0.9rem;
+  padding-left: 1px;
+}
+
 .skills p {
   font-weight: 500;
   color: var(--color-text-default);
@@ -174,11 +198,11 @@ body {
   color: var(--color-text-default);
 }
 
-.card:hover{
+.card:hover {
   box-shadow: 0px 0px 10px #1f1f1f8a !important;
 }
 
-.exp-detail:hover{
+.exp-detail:hover {
   box-shadow: 0px 0px 10px #1f1f1f8a !important;
 }
 
@@ -208,7 +232,7 @@ body {
     right: 0px;
   }
 
-  .mainIntroduction h1{
+  .mainIntroduction h1 {
     font-size: 2rem;
   }
 }
@@ -246,6 +270,7 @@ body {
 @media (max-width: 768px) {
   .main-textos {
     text-align: center;
+    
   }
 
   .mainIntroduction .col-7 {
@@ -253,7 +278,7 @@ body {
   }
 
   .main-textos p {
-    padding: 0px !important;
+    padding: 5px !important;
   }
 
   .mainIntroduction .buttons {
