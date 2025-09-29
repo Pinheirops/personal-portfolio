@@ -81,6 +81,10 @@ body {
   border: 1px solid;
 }
 
+.resumo .badge{
+  border-radius: 3px;
+}
+
 .project .badge:hover {
   border: 1px solid #0d6efd;
   box-shadow: 0px 0px 5px #0d6efd;
@@ -94,7 +98,7 @@ body {
   margin: 15px 0px;
 }
 
-.data-project {
+.data {
   font-size: 0.9rem;
   padding-left: 1px;
 }
