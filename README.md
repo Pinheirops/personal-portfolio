@@ -1,19 +1,22 @@
-<h2>PORTFÓLIO</h2>
+<h2>PERSONAL PORTFÓLIO</h2>
 <hr>
-<h3>Descrição</h3>
-<p>Desenvolvimento do meu portfolio para apresentar brevemente minha carreira, meus projetos, hobbies, minhas habilidades e informações de contato.</p>
-<p><strong>ACESSAR PROJETO:</strong> https://pinheirops.github.io/portfolio/public/</p>
+<h3>Description</h3>
+<p>This is my personal portfolio website, developed to showcase my projects, skills, and contatc information.</p>
 <hr>
-<h3>Ferramentas Utilizadas</h3>
+<h3>Technologies</h3>
 <ul>
   <li>HTML</li>
   <li>CSS</li>
-  <li>Javascript</li>
+  <li>JavaScript</li>
   <li>Bootstrap</li>
   <li>PhPMail</li>
 </ul>
-<hr>
-<h3>O que aprendi</h3>
-<p>Com o desenvolvimento desse projeto aprofundei meu conhecimento utilizando a ferramenta bootstrap e apliquei algumas funcionalidades Javascript que estou estudando.</p>
-<hr>
+<h3>What I Learned</h3>
+<ul>
+  <li>Improved my skills with Bootstrap and responsive design</li>
+  <li>Practiced JavaScript for DOM manipulation and interactivity</li>
+  <li>Learned how to integrate email functionality using PHPMailer</li>
+</ul>
+<h3>How to Run</h3>
+<p>Clone the repository and open the <code>index.html</code> file in your browser.</p>
 
