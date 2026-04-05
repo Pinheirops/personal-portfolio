@@ -1,7 +1,9 @@
 <h2>PERSONAL PORTFÓLIO</h2>
-<hr>
 <h3>Description</h3>
-<p>This is my personal portfolio website, developed to showcase my projects, skills, and contatc information.</p>
+<p>This is my personal portfolio website, developed to showcase my projects, skills, and contact information.</p>
+<h3>Acess my portfolio</h3>
+<p><strong>Click here:</strong> https://pinheirops.github.io/personal-portfolio/</p>
+<h3>Preview</h3>
 <img src="public/assets/images/preview-img/preview.gif"/>
 <hr>
 <h3>Technologies</h3>
