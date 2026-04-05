@@ -2,6 +2,7 @@
 <hr>
 <h3>Description</h3>
 <p>This is my personal portfolio website, developed to showcase my projects, skills, and contatc information.</p>
+<img src="public/assets/images/preview-img/preview.gif"/>
 <hr>
 <h3>Technologies</h3>
 <ul>
